@@ -1,0 +1,92 @@
+<div>
+    <!--Header page-->
+    <br>
+    <br>
+    <br>
+    <hr class="m-0" style='padding-bottom: 6px; opacity: inherit;'>
+    <!--Header page-->
+
+    <div class="container main-container mt-4">
+        <h3 style="color: rgb(255, 0, 0);">Interpolation</h3>
+
+        <br>
+
+        <!-- <p>O número de cliques é: {{ contadorClique }}</p> -->
+
+        <p [ngClass]="{ 
+            'text-secondary':contadorClique < 3, 
+            'text-success' :contadorClique>= 3, 
+            'text-warning':contadorClique >= 5, 
+            'text-danger':contadorClique >= 9 
+            }">O número de cliques é: {{ contadorClique }}
+        </p>
+
+        <br>
+
+        <h3 style="color: rgb(255, 0, 0);">Property Binding</h3>
+
+        <br>
+
+        <button style="color: rgb(255, 0, 0);" class="btn btn-warning bg-gradient" [disabled]="contadorClique >= 10" (click)='infoImage()'>About</button><br><br>
+        <img [src]="urlImagem" style="height: 500px; width: 100%;">
+
+        <br>
+        <br>
+
+        <h3 style="color: rgb(255, 0, 0);">Event Binding</h3>
+
+        <br>
+
+        <table>
+            <tr>
+                <td>
+                    <button style="color: rgb(255, 0, 0);" class="btn btn-warning bg-gradient" (click)='addClique()'><b>Clique-me</b></button>
+                </td>
+                <td>
+                    <div><button style="color: rgb(255, 0, 0); margin-left: 15px;" class="btn btn-warning bg-gradient" [disabled]="contadorClique < 10" (click)='zerarContador()'><b>Zerar</b></button></div>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+        <br>
+
+        <h3 style="color: rgb(255, 0, 0);">Two-Way Binding</h3>
+
+        <br>
+
+        <!--Primeira Forma com método criado no arquivo TS-->
+
+        <!-- <input type="text" (keyup)='keyUp($event)' placeholder="Digite seu nome...">
+
+        <br>
+        <br>
+
+        <label style="color: rgb(255, 0, 0);">Seu nome é: {{ nome }}</label> -->
+
+        <!--Segunda Forma com NgModel-->
+
+        <!-- <input type="text" [ngModel]="nome" (ngModelChange)='nome = $event' placeholder="Digite seu nome...">
+
+        <br>
+        <br>
+
+        <label style="color: rgb(255, 0, 0);">Seu nome é: {{ nome }}</label> -->
+
+        <!--Terceira Forma com NgModel resumido-->
+
+        <input type="text" [(ngModel)]="nome" placeholder="Digite seu nome...">
+
+        <br>
+        <br>
+
+        <label [ngClass]="nome" style="color: rgb(255, 0, 0);">Seu nome é: {{ nome }}</label>
+
+        <br>
+        <br>
+
+    </div>
+</div>
+
+<br>
+<br>

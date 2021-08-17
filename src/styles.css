@@ -1,0 +1,75 @@
+/* Style */
+
+.menu {
+    position: fixed;
+    z-index: 100;
+    margin-bottom: 0;
+    margin-top: auto;
+    left: 0;
+    right: 0;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.home {
+    position: relative;
+    margin-bottom: 0;
+    margin-top: auto;
+    left: 0;
+    right: 0;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer {
+    position: fixed;
+    margin-bottom: 0;
+    z-index: 100;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.movie {
+    position: relative;
+    margin-bottom: 0;
+    margin-top: auto;
+    left: 0;
+    right: 0;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+a:hover {
+    color: gold !important;
+}
+
+h2,
+h5,
+hr,
+a {
+    color: rgb(255, 0, 0) !important;
+}
+
+body {
+    background-color: #212529;
+}
+
+h4,
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: gold;
+}
+
+
+/* Fim Style */

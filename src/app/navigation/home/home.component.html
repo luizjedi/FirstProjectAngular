@@ -1,0 +1,89 @@
+<!--Page content-->
+<br>
+<br>
+<br>
+
+<body class="home">
+
+    <!--Esta tag cria linhas horizontais-->
+    <hr class="m-0" style='padding-bottom: 6px; opacity: inherit;'>
+    <!--Fim linhas horizontais-->
+
+    <!--Subtítulo e ícones-->
+    <p class="text-center bg-gradient" style="color: hsla(0, 100%, 50%, 0.802); margin: 1px; padding-top: 4px;">
+        <b>
+            <h3>
+                <img src="https://img.icons8.com/emoji/50/000000/trophy-emoji.png" style='margin: auto;' />
+                Top 3 da Semana
+                <img src="https://img.icons8.com/emoji/50/000000/trophy-emoji.png" style='margin: auto;' />
+            </h3>
+        </b>
+    </p>
+    <!--Fim Subtítulo e ícones-->
+
+    <hr class="m-0" style='padding-bottom: 6px; opacity: inherit;'>
+
+    <!--Carrossel-->
+    <div id="carouselTop3" class="carousel slide bg-dark bg-gradient p-1" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselTop3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselTop3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselTop3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/assets/img/liga.png" class="rounded-pill mx-auto d-block w-50" alt="image content">
+                <div id="carousel" class="carousel-caption d-none d-md-block">
+                    <h4><b>Justice League</b></h4>
+                    <p><b>A Liga da Justiça contra o Lobo da Estepe e seu exército de Parademônios</b></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/assets/img/Fantasy.jpg" class="rounded-pill mx-auto d-block w-50" alt="image content">
+                <div class="carousel-caption d-none d-md-block">
+                    <h4><b>Fantasy</b></h4>
+                    <p><b>Cenário paradisíaco que retrata uma realidade alternativa </b></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/assets/img/deathtrooper.jpg" class="rounded-pill mx-auto d-block w-50" alt=" image content">
+                <div class="carousel-caption d-none d-md-block">
+                    <h4><b>Deathtrooper</b></h4>
+                    <p><b>A saga de um stormtrooper que sucumbiu ao lado negro da força</b></p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselTop3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselTop3" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--Fim Carrossel-->
+
+    <!--Cards-->
+    <hr class="m-0" style='padding-bottom: 3px; opacity: inherit;'>
+
+    <div style="width:100%; margin: auto;" class="row">
+
+        <div style='border-width: 4px !important; border-color: red !important;' class="card-fluid border bg-gradient col-12 col-sm-12 col-md-6 col-lg-3" *ngFor="let item of this.cards">
+            <img [src]="item.image" height="147" class="card-img-top" alt="Image Content">
+            <div class="card-body text-center">
+                <h5 class="card-title">{{item.name}}</h5>
+                <p class="card-text" style="color: red; font-size: large;">{{item.text}}</p>
+                <button class="btn btn-warning bg-gradient card-btn-bottom" style='color: red; margin-bottom: auto;' (click)="this.alertarClick(item)"><b>Saber mais</b></button>
+            </div>
+        </div>
+    </div>
+    <!--Fim Cards-->
+
+</body>
+<!--Fim Page content-->
+
+<hr class="m-0" style='padding-bottom: 3px; opacity: inherit;'>
+<br>
