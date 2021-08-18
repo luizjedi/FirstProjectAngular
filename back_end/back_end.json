@@ -38,61 +38,61 @@
 
     "Series": [{
             "description": "Action",
-            "synopsis": "",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
             "name": "Tribes of Europa",
             "size": 16.89,
-            "image": "tribes.jpg"
+            "image": "yoda-sith.jpg"
         },
         {
             "description": "Apcalyptic",
-            "synopsis": "",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
             "name": "Soldiers or Zombies",
             "size": 22.00,
-            "image": "soldiers.jpg"
+            "image": "yoda-sith.jpg"
         },
         {
             "description": "Fantasy",
-            "synopsis": "",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
             "name": "Shadow and Bones",
             "size": 32.65,
-            "image": "shadow.jpg"
+            "image": "yoda-sith.jpg"
         },
         {
             "description": "Nactional",
-            "synopsis": "",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
             "name": "Invisoble City",
             "size": 9.99,
-            "image": "invisible.jpg"
+            "image": "yoda-sith.jpg"
         }
     ],
 
     "Movies": [{
             "description": "Adventure",
-            "synopsis": "",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
             "name": "Jungle Cruise",
             "size": 5.15,
-            "image": "jungle.jpg"
+            "image": "liga.png"
         },
         {
             "description": "Terror",
-            "synopsis": "",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
             "name": "The Mad Hatter",
             "size": 6.89,
-            "image": "mad.jpg"
+            "image": "liga.png"
         },
         {
             "description": "Fantasy",
-            "synopsis": "",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
             "name": "Infinite",
             "size": 11.65,
-            "image": "infinite.jpg"
+            "image": "liga.png"
         },
         {
             "description": "Action",
-            "synopsis": "",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
             "name": "Fast and Furious",
             "size": 4.75,
-            "image": "fast.jpg"
+            "image": "liga.png"
         }
     ]
 }
