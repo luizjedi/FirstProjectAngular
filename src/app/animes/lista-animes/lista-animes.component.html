@@ -4,7 +4,7 @@
 <div style="width:100%; margin: auto;" class="row">
 
     <div *ngFor="let anime of animes" style='border-width: 4px !important; border-color: red !important;' class="card-fluid border bg-gradient col-12 col-sm-12 col-md-6 col-lg-3">
-        <img src="/assets/img/{{anime.image}}" height="200" class="card-img-top" alt="Image Content">
+        <img src="/assets/img/{{anime.image}}" height="225" class="card-img-top" alt="Image Content">
         <div class="card-body text-center">
             <h5 class="card-title "><b>{{anime.name}}</b></h5>
             <hr class="m-0" style='padding-bottom: 3px; opacity: inherit;'>
@@ -15,9 +15,13 @@
                 <h5 class="col-6 text-end">Tamanho: {{anime.size}} Gb</h5>
             </div>
             <p class="card-text mt-2" style="color: red; font-size: large;">{{anime.synopsis}}</p>
-            <button class="btn btn-warning bg-gradient card-btn-bottom" style='color: red; margin-bottom: auto;'><b>Saber mais</b></button>
+
+            <button class="btn btn-warning bg-gradient card-btn-bottom" style='color: red; margin-bottom: auto;' [routerLink]="['/anime', anime.router]" [queryParams]="{id: anime.id}">
+                <b>Saber mais</b></button>
+
         </div>
     </div>
 </div>
 
-<hr class="m-0" style='padding-bottom: 3px; opacity: inherit;'>
+<br>
+<br>

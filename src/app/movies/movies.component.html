@@ -5,12 +5,20 @@
     <hr class="m-0" style='padding-bottom: 6px; opacity: inherit;'>
 
     <div class="card bg-dark bg-gradient col-12 col-sm-12 col-md-6 col-lg-3" style="width: 100%;">
-        <img src="/assets/img/liga.png" height="656" class="card-img-top" alt="content image">
+        <img src="/assets/img/{{this.movie.image}}" height="502" class="card-img-top" alt="content image">
         <div class="card-body text-center">
-            <h5 class="card-title">Justice League</h5>
-            <p class="card-text">Impulsionado pela restauração de sua fé na humanidade e inspirado pelo ato altruísta do Superman, Bruce Wayne convoca sua nova aliada Diana Prince para o combate contra um inimigo ainda maior, recém-despertado. Juntos, Batman e Mulher-Maravilha
-                buscam e recrutam com agilidade um time de meta-humanos, mas mesmo com a formação da liga de heróis sem precedentes o ataque ao planeta ainda pode ser catastrófico.</p>
-            <button class="btn btn-warning bg-gradient card-btn-bottom" style='color: red;'><b>Download</b></button>
+            <h5 class="card-title">{{this.movie.name}} </h5>
+            <hr class="m-0" style='padding-bottom: 3px; opacity: inherit;'>
+
+            <div class="row mt-2">
+                <h5 class="col-6 card-title text-start">Gênero: {{this.movie.description}}
+                </h5>
+                <h5 class="col-6 text-end">Tamanho: {{this.movie.size}} Gb</h5>
+            </div>
+            <p class="card-text mt-2 text-start" style="color: red; font-size: large;">{{this.movie.text}}</p>
+
+            <button class="btn btn-warning bg-gradient card-btn-bottom" (click)="alertDownload(this.movie.name)" style='color: red;margin-bottom: 25px;'><b>Download</b></button>
+
         </div>
     </div>
 </div>

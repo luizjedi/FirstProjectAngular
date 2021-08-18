@@ -15,7 +15,7 @@
                 <h5 class="col-6 text-end">Tamanho: {{serie.size}} Gb</h5>
             </div>
             <p class="card-text mt-2" style="color: red; font-size: large;">{{serie.synopsis}}</p>
-            <button class="btn btn-warning bg-gradient card-btn-bottom" style='color: red; margin-bottom: auto;'><b>Saber mais</b></button>
+            <button class="btn btn-warning bg-gradient card-btn-bottom" style='color: red; margin-bottom: auto;' [routerLink]="['/serie', serie.router]" [queryParams]="{id: serie.id}"><b>Saber mais</b></button>
         </div>
     </div>
 </div>

@@ -5,11 +5,20 @@
     <hr class="m-0" style='padding-bottom: 6px; opacity: inherit;'>
 
     <div class="card bg-dark bg-gradient col-12 col-sm-12 col-md-6 col-lg-3" style="width: 100%;">
-        <img src="/assets/img/onePunch.jpg" height="680" class="card-img-top" alt="content image">
+        <img src="/assets/img/{{this.anime.image}}" height="502" class="card-img-top" alt="content image">
         <div class="card-body text-center">
-            <h5 class="card-title">One Punch Man</h5>
-            <p class="card-text">One Punch-Man (ワンパンマン Wanpanman, lit. ... One Punch-Man conta a história de Saitama, um super-herói extremamente poderoso, que se entediou com a ausência dos desafios nas suas lutas contra o mal e procura encontrar um oponente digno.</p>
-            <button class="btn btn-warning bg-gradient card-btn-bottom" style='color: red;'><b>Download</b></button>
+            <h5 class="card-title">{{this.anime.name}} </h5>
+            <hr class="m-0" style='padding-bottom: 3px; opacity: inherit;'>
+
+            <div class="row mt-2">
+                <h5 class="col-6 card-title text-start">Gênero: {{this.anime.description}}
+                </h5>
+                <h5 class="col-6 text-end">Tamanho: {{this.anime.size}} Gb</h5>
+            </div>
+            <p class="card-text mt-2 text-start" style="color: red; font-size: large;">{{this.anime.text}}</p>
+
+            <button class="btn btn-warning bg-gradient card-btn-bottom" (click)="alertDownload(this.anime.name)" style='color: red;margin-bottom: 25px;'><b>Download</b></button>
+
         </div>
     </div>
 </div>

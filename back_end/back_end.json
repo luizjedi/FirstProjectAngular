@@ -1,98 +1,137 @@
 {
     "Animes": [{
+            "id": 1,
             "description": "Action",
             "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
             "name": "Tokyo Revengers",
             "size": 7.15,
-            "image": "astronauta.jpg"
+            "image": "astronauta.jpg",
+            "router": "/anime",
+            "text": "Aenean blandit egestas turpis a rhoncus. Aliquam tristique leo id elit facilisis, sed elementum sem eleifend. Nulla facilisi. Cras cursus suscipit purus, quis fringilla massa volutpat vel. Phasellus id diam nec odio volutpat pretium pretium ut lacus. Vestibulum a ligula iaculis, fringilla elit et, congue metus. Etiam elementum ipsum et facilisis mattis. Quisque ac pharetra purus. Sed convallis tempor turpis, eu consectetur velit fringilla eu. Integer eu nisi pulvinar sapien accumsan tempor. Ut porttitor at lorem in tempus. Nulla facilisi. Aenean vitae lacinia purus.Integer a risus nec ex vulputate cursus. Cras sodales ipsum id sapien aliquam mollis. Duis a sollicitudin lectus, eget elementum diam. Integer quis elit imperdiet, ultrices nisl sed, iaculis odio. Mauris ut velit placerat, auctor lectus eget, efficitur arcu. Donec mollis blandit congue. Suspendisse condimentum tempor tincidunt. Fusce varius eros vitae turpis pulvinar, vel pharetra nunc blandit. Nam felis velit, tempus a massa sed, convallis aliquam lacus. Fusce vel pellentesque tortor."
         },
         {
+            "id": 2,
             "description": "Shounen",
             "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
             "name": "Mushoku Tensei",
             "size": 7.89,
-            "image": "shinigami.jpg"
+            "image": "shinigami.jpg",
+            "router": "/anime",
+            "text": "Aenean blandit egestas turpis a rhoncus. Aliquam tristique leo id elit facilisis, sed elementum sem eleifend. Nulla facilisi. Cras cursus suscipit purus, quis fringilla massa volutpat vel. Phasellus id diam nec odio volutpat pretium pretium ut lacus. Vestibulum a ligula iaculis, fringilla elit et, congue metus. Etiam elementum ipsum et facilisis mattis. Quisque ac pharetra purus. Sed convallis tempor turpis, eu consectetur velit fringilla eu. Integer eu nisi pulvinar sapien accumsan tempor. Ut porttitor at lorem in tempus. Nulla facilisi. Aenean vitae lacinia purus.Integer a risus nec ex vulputate cursus. Cras sodales ipsum id sapien aliquam mollis. Duis a sollicitudin lectus, eget elementum diam. Integer quis elit imperdiet, ultrices nisl sed, iaculis odio. Mauris ut velit placerat, auctor lectus eget, efficitur arcu. Donec mollis blandit congue. Suspendisse condimentum tempor tincidunt. Fusce varius eros vitae turpis pulvinar, vel pharetra nunc blandit. Nam felis velit, tempus a massa sed, convallis aliquam lacus. Fusce vel pellentesque tortor."
         },
         {
+            "id": 3,
             "description": "Fantasy",
             "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
             "name": "Eighty-Six",
             "size": 9.65,
-            "image": "vader2.jpg"
+            "image": "vader2.jpg",
+            "router": "/anime",
+            "text": "Aenean blandit egestas turpis a rhoncus. Aliquam tristique leo id elit facilisis, sed elementum sem eleifend. Nulla facilisi. Cras cursus suscipit purus, quis fringilla massa volutpat vel. Phasellus id diam nec odio volutpat pretium pretium ut lacus. Vestibulum a ligula iaculis, fringilla elit et, congue metus. Etiam elementum ipsum et facilisis mattis. Quisque ac pharetra purus. Sed convallis tempor turpis, eu consectetur velit fringilla eu. Integer eu nisi pulvinar sapien accumsan tempor. Ut porttitor at lorem in tempus. Nulla facilisi. Aenean vitae lacinia purus.Integer a risus nec ex vulputate cursus. Cras sodales ipsum id sapien aliquam mollis. Duis a sollicitudin lectus, eget elementum diam. Integer quis elit imperdiet, ultrices nisl sed, iaculis odio. Mauris ut velit placerat, auctor lectus eget, efficitur arcu. Donec mollis blandit congue. Suspendisse condimentum tempor tincidunt. Fusce varius eros vitae turpis pulvinar, vel pharetra nunc blandit. Nam felis velit, tempus a massa sed, convallis aliquam lacus. Fusce vel pellentesque tortor."
         },
         {
+            "id": 4,
             "description": "Shoujo",
             "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
             "name": "Kemono Jihen",
             "size": 3.75,
-            "image": "bleach.jpg"
+            "image": "bleach.jpg",
+            "router": "/anime",
+            "text": "Aenean blandit egestas turpis a rhoncus. Aliquam tristique leo id elit facilisis, sed elementum sem eleifend. Nulla facilisi. Cras cursus suscipit purus, quis fringilla massa volutpat vel. Phasellus id diam nec odio volutpat pretium pretium ut lacus. Vestibulum a ligula iaculis, fringilla elit et, congue metus. Etiam elementum ipsum et facilisis mattis. Quisque ac pharetra purus. Sed convallis tempor turpis, eu consectetur velit fringilla eu. Integer eu nisi pulvinar sapien accumsan tempor. Ut porttitor at lorem in tempus. Nulla facilisi. Aenean vitae lacinia purus.Integer a risus nec ex vulputate cursus. Cras sodales ipsum id sapien aliquam mollis. Duis a sollicitudin lectus, eget elementum diam. Integer quis elit imperdiet, ultrices nisl sed, iaculis odio. Mauris ut velit placerat, auctor lectus eget, efficitur arcu. Donec mollis blandit congue. Suspendisse condimentum tempor tincidunt. Fusce varius eros vitae turpis pulvinar, vel pharetra nunc blandit. Nam felis velit, tempus a massa sed, convallis aliquam lacus. Fusce vel pellentesque tortor."
         },
         {
+            "id": 5,
             "description": "houjo",
             "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
             "name": "Kemono Jihen",
             "size": 3.75,
-            "image": "bleach.jpg"
+            "image": "bleach.jpg",
+            "router": "/anime",
+            "text": "Aenean blandit egestas turpis a rhoncus. Aliquam tristique leo id elit facilisis, sed elementum sem eleifend. Nulla facilisi. Cras cursus suscipit purus, quis fringilla massa volutpat vel. Phasellus id diam nec odio volutpat pretium pretium ut lacus. Vestibulum a ligula iaculis, fringilla elit et, congue metus. Etiam elementum ipsum et facilisis mattis. Quisque ac pharetra purus. Sed convallis tempor turpis, eu consectetur velit fringilla eu. Integer eu nisi pulvinar sapien accumsan tempor. Ut porttitor at lorem in tempus. Nulla facilisi. Aenean vitae lacinia purus.Integer a risus nec ex vulputate cursus. Cras sodales ipsum id sapien aliquam mollis. Duis a sollicitudin lectus, eget elementum diam. Integer quis elit imperdiet, ultrices nisl sed, iaculis odio. Mauris ut velit placerat, auctor lectus eget, efficitur arcu. Donec mollis blandit congue. Suspendisse condimentum tempor tincidunt. Fusce varius eros vitae turpis pulvinar, vel pharetra nunc blandit. Nam felis velit, tempus a massa sed, convallis aliquam lacus. Fusce vel pellentesque tortor."
         }
     ],
 
     "Series": [{
+            "id": 1,
             "description": "Action",
             "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
             "name": "Tribes of Europa",
             "size": 16.89,
-            "image": "yoda-sith.jpg"
+            "image": "yoda-sith.jpg",
+            "router": "/serie",
+            "text": "Aenean blandit egestas turpis a rhoncus. Aliquam tristique leo id elit facilisis, sed elementum sem eleifend. Nulla facilisi. Cras cursus suscipit purus, quis fringilla massa volutpat vel. Phasellus id diam nec odio volutpat pretium pretium ut lacus. Vestibulum a ligula iaculis, fringilla elit et, congue metus. Etiam elementum ipsum et facilisis mattis. Quisque ac pharetra purus. Sed convallis tempor turpis, eu consectetur velit fringilla eu. Integer eu nisi pulvinar sapien accumsan tempor. Ut porttitor at lorem in tempus. Nulla facilisi. Aenean vitae lacinia purus.Integer a risus nec ex vulputate cursus. Cras sodales ipsum id sapien aliquam mollis. Duis a sollicitudin lectus, eget elementum diam. Integer quis elit imperdiet, ultrices nisl sed, iaculis odio. Mauris ut velit placerat, auctor lectus eget, efficitur arcu. Donec mollis blandit congue. Suspendisse condimentum tempor tincidunt. Fusce varius eros vitae turpis pulvinar, vel pharetra nunc blandit. Nam felis velit, tempus a massa sed, convallis aliquam lacus. Fusce vel pellentesque tortor."
         },
         {
+            "id": 2,
             "description": "Apcalyptic",
             "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
             "name": "Soldiers or Zombies",
             "size": 22.00,
-            "image": "yoda-sith.jpg"
+            "image": "yoda-sith.jpg",
+            "router": "/serie",
+            "text": "Aenean blandit egestas turpis a rhoncus. Aliquam tristique leo id elit facilisis, sed elementum sem eleifend. Nulla facilisi. Cras cursus suscipit purus, quis fringilla massa volutpat vel. Phasellus id diam nec odio volutpat pretium pretium ut lacus. Vestibulum a ligula iaculis, fringilla elit et, congue metus. Etiam elementum ipsum et facilisis mattis. Quisque ac pharetra purus. Sed convallis tempor turpis, eu consectetur velit fringilla eu. Integer eu nisi pulvinar sapien accumsan tempor. Ut porttitor at lorem in tempus. Nulla facilisi. Aenean vitae lacinia purus.Integer a risus nec ex vulputate cursus. Cras sodales ipsum id sapien aliquam mollis. Duis a sollicitudin lectus, eget elementum diam. Integer quis elit imperdiet, ultrices nisl sed, iaculis odio. Mauris ut velit placerat, auctor lectus eget, efficitur arcu. Donec mollis blandit congue. Suspendisse condimentum tempor tincidunt. Fusce varius eros vitae turpis pulvinar, vel pharetra nunc blandit. Nam felis velit, tempus a massa sed, convallis aliquam lacus. Fusce vel pellentesque tortor."
         },
         {
+            "id": 3,
             "description": "Fantasy",
             "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
             "name": "Shadow and Bones",
             "size": 32.65,
-            "image": "yoda-sith.jpg"
+            "image": "yoda-sith.jpg",
+            "router": "/serie",
+            "text": "Aenean blandit egestas turpis a rhoncus. Aliquam tristique leo id elit facilisis, sed elementum sem eleifend. Nulla facilisi. Cras cursus suscipit purus, quis fringilla massa volutpat vel. Phasellus id diam nec odio volutpat pretium pretium ut lacus. Vestibulum a ligula iaculis, fringilla elit et, congue metus. Etiam elementum ipsum et facilisis mattis. Quisque ac pharetra purus. Sed convallis tempor turpis, eu consectetur velit fringilla eu. Integer eu nisi pulvinar sapien accumsan tempor. Ut porttitor at lorem in tempus. Nulla facilisi. Aenean vitae lacinia purus.Integer a risus nec ex vulputate cursus. Cras sodales ipsum id sapien aliquam mollis. Duis a sollicitudin lectus, eget elementum diam. Integer quis elit imperdiet, ultrices nisl sed, iaculis odio. Mauris ut velit placerat, auctor lectus eget, efficitur arcu. Donec mollis blandit congue. Suspendisse condimentum tempor tincidunt. Fusce varius eros vitae turpis pulvinar, vel pharetra nunc blandit. Nam felis velit, tempus a massa sed, convallis aliquam lacus. Fusce vel pellentesque tortor."
         },
         {
+            "id": 4,
             "description": "Nactional",
             "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
             "name": "Invisoble City",
             "size": 9.99,
-            "image": "yoda-sith.jpg"
+            "image": "yoda-sith.jpg",
+            "router": "/serie",
+            "text": "Aenean blandit egestas turpis a rhoncus. Aliquam tristique leo id elit facilisis, sed elementum sem eleifend. Nulla facilisi. Cras cursus suscipit purus, quis fringilla massa volutpat vel. Phasellus id diam nec odio volutpat pretium pretium ut lacus. Vestibulum a ligula iaculis, fringilla elit et, congue metus. Etiam elementum ipsum et facilisis mattis. Quisque ac pharetra purus. Sed convallis tempor turpis, eu consectetur velit fringilla eu. Integer eu nisi pulvinar sapien accumsan tempor. Ut porttitor at lorem in tempus. Nulla facilisi. Aenean vitae lacinia purus.Integer a risus nec ex vulputate cursus. Cras sodales ipsum id sapien aliquam mollis. Duis a sollicitudin lectus, eget elementum diam. Integer quis elit imperdiet, ultrices nisl sed, iaculis odio. Mauris ut velit placerat, auctor lectus eget, efficitur arcu. Donec mollis blandit congue. Suspendisse condimentum tempor tincidunt. Fusce varius eros vitae turpis pulvinar, vel pharetra nunc blandit. Nam felis velit, tempus a massa sed, convallis aliquam lacus. Fusce vel pellentesque tortor."
         }
     ],
 
     "Movies": [{
+            "id": 1,
             "description": "Adventure",
             "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
             "name": "Jungle Cruise",
             "size": 5.15,
-            "image": "liga.png"
+            "image": "liga.png",
+            "router": "/movie",
+            "text": "Aenean blandit egestas turpis a rhoncus. Aliquam tristique leo id elit facilisis, sed elementum sem eleifend. Nulla facilisi. Cras cursus suscipit purus, quis fringilla massa volutpat vel. Phasellus id diam nec odio volutpat pretium pretium ut lacus. Vestibulum a ligula iaculis, fringilla elit et, congue metus. Etiam elementum ipsum et facilisis mattis. Quisque ac pharetra purus. Sed convallis tempor turpis, eu consectetur velit fringilla eu. Integer eu nisi pulvinar sapien accumsan tempor. Ut porttitor at lorem in tempus. Nulla facilisi. Aenean vitae lacinia purus.Integer a risus nec ex vulputate cursus. Cras sodales ipsum id sapien aliquam mollis. Duis a sollicitudin lectus, eget elementum diam. Integer quis elit imperdiet, ultrices nisl sed, iaculis odio. Mauris ut velit placerat, auctor lectus eget, efficitur arcu. Donec mollis blandit congue. Suspendisse condimentum tempor tincidunt. Fusce varius eros vitae turpis pulvinar, vel pharetra nunc blandit. Nam felis velit, tempus a massa sed, convallis aliquam lacus. Fusce vel pellentesque tortor."
         },
         {
+            "id": 2,
             "description": "Terror",
             "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
             "name": "The Mad Hatter",
             "size": 6.89,
-            "image": "liga.png"
+            "image": "liga.png",
+            "router": "/movie",
+            "text": "Aenean blandit egestas turpis a rhoncus. Aliquam tristique leo id elit facilisis, sed elementum sem eleifend. Nulla facilisi. Cras cursus suscipit purus, quis fringilla massa volutpat vel. Phasellus id diam nec odio volutpat pretium pretium ut lacus. Vestibulum a ligula iaculis, fringilla elit et, congue metus. Etiam elementum ipsum et facilisis mattis. Quisque ac pharetra purus. Sed convallis tempor turpis, eu consectetur velit fringilla eu. Integer eu nisi pulvinar sapien accumsan tempor. Ut porttitor at lorem in tempus. Nulla facilisi. Aenean vitae lacinia purus.Integer a risus nec ex vulputate cursus. Cras sodales ipsum id sapien aliquam mollis. Duis a sollicitudin lectus, eget elementum diam. Integer quis elit imperdiet, ultrices nisl sed, iaculis odio. Mauris ut velit placerat, auctor lectus eget, efficitur arcu. Donec mollis blandit congue. Suspendisse condimentum tempor tincidunt. Fusce varius eros vitae turpis pulvinar, vel pharetra nunc blandit. Nam felis velit, tempus a massa sed, convallis aliquam lacus. Fusce vel pellentesque tortor."
         },
         {
+            "id": 3,
             "description": "Fantasy",
             "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
             "name": "Infinite",
             "size": 11.65,
-            "image": "liga.png"
+            "image": "liga.png",
+            "router": "/movie",
+            "text": "Aenean blandit egestas turpis a rhoncus. Aliquam tristique leo id elit facilisis, sed elementum sem eleifend. Nulla facilisi. Cras cursus suscipit purus, quis fringilla massa volutpat vel. Phasellus id diam nec odio volutpat pretium pretium ut lacus. Vestibulum a ligula iaculis, fringilla elit et, congue metus. Etiam elementum ipsum et facilisis mattis. Quisque ac pharetra purus. Sed convallis tempor turpis, eu consectetur velit fringilla eu. Integer eu nisi pulvinar sapien accumsan tempor. Ut porttitor at lorem in tempus. Nulla facilisi. Aenean vitae lacinia purus.Integer a risus nec ex vulputate cursus. Cras sodales ipsum id sapien aliquam mollis. Duis a sollicitudin lectus, eget elementum diam. Integer quis elit imperdiet, ultrices nisl sed, iaculis odio. Mauris ut velit placerat, auctor lectus eget, efficitur arcu. Donec mollis blandit congue. Suspendisse condimentum tempor tincidunt. Fusce varius eros vitae turpis pulvinar, vel pharetra nunc blandit. Nam felis velit, tempus a massa sed, convallis aliquam lacus. Fusce vel pellentesque tortor."
         },
         {
+            "id": 4,
             "description": "Action",
             "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
             "name": "Fast and Furious",
             "size": 4.75,
-            "image": "liga.png"
+            "image": "liga.png",
+            "router": "/movie",
+            "text": "Aenean blandit egestas turpis a rhoncus. Aliquam tristique leo id elit facilisis, sed elementum sem eleifend. Nulla facilisi. Cras cursus suscipit purus, quis fringilla massa volutpat vel. Phasellus id diam nec odio volutpat pretium pretium ut lacus. Vestibulum a ligula iaculis, fringilla elit et, congue metus. Etiam elementum ipsum et facilisis mattis. Quisque ac pharetra purus. Sed convallis tempor turpis, eu consectetur velit fringilla eu. Integer eu nisi pulvinar sapien accumsan tempor. Ut porttitor at lorem in tempus. Nulla facilisi. Aenean vitae lacinia purus.Integer a risus nec ex vulputate cursus. Cras sodales ipsum id sapien aliquam mollis. Duis a sollicitudin lectus, eget elementum diam. Integer quis elit imperdiet, ultrices nisl sed, iaculis odio. Mauris ut velit placerat, auctor lectus eget, efficitur arcu. Donec mollis blandit congue. Suspendisse condimentum tempor tincidunt. Fusce varius eros vitae turpis pulvinar, vel pharetra nunc blandit. Nam felis velit, tempus a massa sed, convallis aliquam lacus. Fusce vel pellentesque tortor."
         }
     ]
 }

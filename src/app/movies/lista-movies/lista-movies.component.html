@@ -15,7 +15,7 @@
                 <h5 class="col-6 text-end">Tamanho: {{movie.size}} Gb</h5>
             </div>
             <p class="card-text mt-2" style="color: red; font-size: large;">{{movie.synopsis}}</p>
-            <button class="btn btn-warning bg-gradient card-btn-bottom" style='color: red; margin-bottom: auto;'><b>Saber mais</b></button>
+            <button class="btn btn-warning bg-gradient card-btn-bottom" style='color: red; margin-bottom: auto;' [routerLink]="['/movie', movie.router]" [queryParams]="{id: movie.id}"><b>Saber mais</b></button>
         </div>
     </div>
 </div>
