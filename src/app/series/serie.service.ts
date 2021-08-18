@@ -1,22 +1,19 @@
 import { Injectable } from "@angular/core";
 import { HttpClient } from '@angular/common/http';
 import { Observable } from "rxjs";
-import { Anime } from "./anime";
-
-
+import { Serie } from "./serie";
 
 @Injectable()
-export class AnimeService {
+export class SerieService {
 
 constructor(private http: HttpClient) { }
 
 protected UrlServiceV1: string = "http://localhost:3000/";
 
-obterAnimes() : Observable<Anime[]> {
+obterSeries() : Observable<Serie[]> {
 
- return this.http.get<Anime[]>(this.UrlServiceV1 + "Animes")
+ return this.http.get<Serie[]>(this.UrlServiceV1 + "series");
   
  }
 
 }
-

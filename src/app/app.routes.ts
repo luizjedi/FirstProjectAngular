@@ -1,19 +1,20 @@
 import { Routes } from "@angular/router";
-import { AnimesComponent } from "./category/animes/animes.component";
-import { MoviesComponent } from "./category/movies/movies.component";
-import { SeriesComponent } from "./category/series/series.component";
+import { AnimesComponent } from "./animes/animes.component";
+import { MoviesComponent } from "./movies/movies.component";
+import { SeriesComponent } from "./series/series.component";
 import { DataBindingComponent } from "./demos/data-binding/data-binding.component";
 import { HomeComponent } from "./navigation/home/home.component";
 import { MenuComponent } from "./navigation/menu/menu.component";
-// import { ListaAnimesComponent } from "./category/animes/lista-animes/lista-animes.component";
-
+import { ListaAnimesComponent } from "./animes/lista-animes/lista-animes.component";
+import { ListaSeriesComponent } from "./series/lista-series/lista-series.component";
+import { ListaMoviesComponent } from "./movies/lista-movies/lista-movies.component";
 
 export const rootRouterConfig: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent },
-  { path: 'movies', component: MoviesComponent },
-  { path: 'series', component: SeriesComponent },
-  { path: 'animes', component: AnimesComponent },
+  { path: 'movies', component: ListaMoviesComponent },
+  { path: 'series', component: ListaSeriesComponent },
+  { path: 'animes', component: ListaAnimesComponent },
   { path: 'feature-data-binding', component: DataBindingComponent },
-  // { path: 'app-lista-animes', component: ListaAnimesComponent }
+  
 ];

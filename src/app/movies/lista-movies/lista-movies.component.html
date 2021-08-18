@@ -1,0 +1,23 @@
+<br><br><br>
+<hr class="m-0" style='padding-bottom: 3px; opacity: inherit;'>
+
+<div style="width:100%; margin: auto;" class="row">
+
+    <div *ngFor="let movie of movies" style='border-width: 4px !important; border-color: red !important;' class="card-fluid border bg-gradient col-12 col-sm-12 col-md-6 col-lg-3">
+        <img src="/assets/img/{{movie.image}}" height="200" class="card-img-top" alt="Image Content">
+        <div class="card-body text-center">
+            <h5 class="card-title "><b>{{movie.name}}</b></h5>
+            <hr class="m-0" style='padding-bottom: 3px; opacity: inherit;'>
+
+            <div class="row mt-2">
+                <h5 class="col-6 card-title text-start">Gênero: {{movie.description}}
+                </h5>
+                <h5 class="col-6 text-end">Tamanho: {{movie.size}} Gb</h5>
+            </div>
+            <p class="card-text mt-2" style="color: red; font-size: large;">{{movie.synopsis}}</p>
+            <button class="btn btn-warning bg-gradient card-btn-bottom" style='color: red; margin-bottom: auto;'><b>Saber mais</b></button>
+        </div>
+    </div>
+</div>
+
+<hr class="m-0" style='padding-bottom: 3px; opacity: inherit;'>

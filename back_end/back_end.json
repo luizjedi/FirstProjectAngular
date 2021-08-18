@@ -1,0 +1,98 @@
+{
+    "Animes": [{
+            "description": "Action",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
+            "name": "Tokyo Revengers",
+            "size": 7.15,
+            "image": "astronauta.jpg"
+        },
+        {
+            "description": "Shounen",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
+            "name": "Mushoku Tensei",
+            "size": 7.89,
+            "image": "shinigami.jpg"
+        },
+        {
+            "description": "Fantasy",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
+            "name": "Eighty-Six",
+            "size": 9.65,
+            "image": "vader2.jpg"
+        },
+        {
+            "description": "Shoujo",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
+            "name": "Kemono Jihen",
+            "size": 3.75,
+            "image": "bleach.jpg"
+        },
+        {
+            "description": "houjo",
+            "synopsis": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla at porta sem, quis convallis nibh. Proin non interdum ipsum. Phasellus congue in turpis id varius. Nullam vel feugiat nibh. Cras.",
+            "name": "Kemono Jihen",
+            "size": 3.75,
+            "image": "bleach.jpg"
+        }
+    ],
+
+    "Series": [{
+            "description": "Action",
+            "synopsis": "",
+            "name": "Tribes of Europa",
+            "size": 16.89,
+            "image": "tribes.jpg"
+        },
+        {
+            "description": "Apcalyptic",
+            "synopsis": "",
+            "name": "Soldiers or Zombies",
+            "size": 22.00,
+            "image": "soldiers.jpg"
+        },
+        {
+            "description": "Fantasy",
+            "synopsis": "",
+            "name": "Shadow and Bones",
+            "size": 32.65,
+            "image": "shadow.jpg"
+        },
+        {
+            "description": "Nactional",
+            "synopsis": "",
+            "name": "Invisoble City",
+            "size": 9.99,
+            "image": "invisible.jpg"
+        }
+    ],
+
+    "Movies": [{
+            "description": "Adventure",
+            "synopsis": "",
+            "name": "Jungle Cruise",
+            "size": 5.15,
+            "image": "jungle.jpg"
+        },
+        {
+            "description": "Terror",
+            "synopsis": "",
+            "name": "The Mad Hatter",
+            "size": 6.89,
+            "image": "mad.jpg"
+        },
+        {
+            "description": "Fantasy",
+            "synopsis": "",
+            "name": "Infinite",
+            "size": 11.65,
+            "image": "infinite.jpg"
+        },
+        {
+            "description": "Action",
+            "synopsis": "",
+            "name": "Fast and Furious",
+            "size": 4.75,
+            "image": "fast.jpg"
+        }
+    ]
+}
